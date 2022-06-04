@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML forms!</title>
+</head>
+<body>
+
+    <h1>HTML Forms</h1>
+
+    <form>
+      <label for="username">Please, input your name:</label>
+      <input type="text" id="username" name="username" placeholder="your name" required>
+      <br><br>
+      <label for="email">Please, input your email:</label>
+      <input type="email" id="email" name="email" placeholder="your email" required>
+      <br><br>
+      <label for="password">Your password:</label>
+      <input type="password" id="password" name="password" placeholder="your password" required>
+
+        <p>Select your age:</p>
+
+        <input type="radio" name="age" value="0-25" id="option_1">
+        <label for="option_1">0-25</label>
+        <input type="radio" name="age"  value="26-50" id="option_2">   <!--name="age2" will disconect this options  -->
+        <label for="option_2">26-50</label>
+        <input type="radio" name="age" value="51+" id="option_3">
+        <label for="option_1">51+</label>
+        
+        <br><br>
+
+        <label for="question">Security question:</label>
+        <select name="question" id="question">
+
+            <option value="q1">What color are your eyes?</option>
+            <option value="q2">If you were a bird, which would it be?</option>
+            <option value="q3">What is your best ever birthday?</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="answer">Your answer:</label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+
+        <label for="bio">Please, provide only truth:</label><br>
+        <textarea name="bio" id="bio" cols="40" rows="3" placeholder="enter your secrets..."></textarea>
+
+        <br><br>
+
+        <input type="submit" value="YES!">
+
+    </form>
+
+</body>
+</html>
