@@ -1,0 +1,13 @@
+span{
+    /* display: block; */
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+div{
+    /* display: inline; */
+    border: 2px solid rgb(206, 148, 33);
+    margin: 20px;
+    padding: 20px;
+}
